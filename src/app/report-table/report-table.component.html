@@ -1,0 +1,22 @@
+<div class="report-table">
+    <h2>Reportes de Ventas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID Reporte</th>
+          <th>ID Sucursal</th>
+          <th>Fecha Reporte</th>
+          <th>Total Ventas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let report of reports">
+          <td>{{ report.reporte_id }}</td>
+          <td>{{ report.sucursal_id }}</td>
+          <td>{{ report.fecha_reporte }}</td>
+          <td>{{ report.total_ventas | currency }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

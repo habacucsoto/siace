@@ -1,0 +1,15 @@
+[
+    {
+      "reporte_id": 1,
+      "sucursal_id": 1,
+      "fecha_reporte": "2024-10-01",
+      "total_ventas": 1000.00
+    },
+    {
+      "reporte_id": 2,
+      "sucursal_id": 2,
+      "fecha_reporte": "2024-10-02",
+      "total_ventas": 1500.00
+    }
+]
+  
